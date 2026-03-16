@@ -1,0 +1,6 @@
+T = 0:0.2:20;
+A = 5*sin(T);
+stem(T,A)
+XLABEL('TIME')
+YLABEL('AMPLITUDE')
+TITLE('SINE WAVE PLOT')
